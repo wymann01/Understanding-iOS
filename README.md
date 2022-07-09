@@ -68,7 +68,7 @@ Category、Extension
 
 # 应用上架
 
-签名机制
+[签名机制](https://)
 
 启动优化
 
