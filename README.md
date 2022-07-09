@@ -54,7 +54,7 @@ NSOperation
 
 Masonry
 
-Hummer
+[Hummer](https://github.com/wymann01/Understanding-iOS/blob/main/Hummer/README.md)
 
 AFNetworking
 
@@ -68,7 +68,7 @@ Category、Extension
 
 # 应用上架
 
-[签名机制](https://)
+[签名机制](https://github.com/wymann01/Understanding-iOS/blob/main/UpperApp/UpperApp.md)
 
 启动优化
 

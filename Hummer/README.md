@@ -1,3 +1,10 @@
+- [Hello World 是怎么显示出来的?](#hello-world-是怎么显示出来的)
+- [司机端 iOS 工程的主要功能是什么？扮演了什么角色？](#司机端-ios-工程的主要功能是什么扮演了什么角色)
+- [Hummer的执行流程和原理？（一个跨端框架是怎么运行的？）](#hummer的执行流程和原理一个跨端框架是怎么运行的)
+  - [Hummer-iOS 是如何渲染的？](#hummer-ios-是如何渲染的)
+- [Hummer-iOS 分为几个模块？各自的作用是什么？各个模块搭配起来工作？](#hummer-ios-分为几个模块各自的作用是什么各个模块搭配起来工作)
+
+
 # Hello World 是怎么显示出来的?
 
 Hummer-iOS 工程写好了原生组件（比如HMLabel），我们写的 ts 代码（比如new Text()），会转换成js，然后打包成 JSBundle，Native 工程拉取这个 Bundle，传到 Native 的 JSC 执行，执行的结果是调用原生接口，创建、添加原生组件到 App 上，用 YogaKit 进行布局，创建了 Yoga节点树，渲染出了页面。（这部分由Hummer-iOS完成）
