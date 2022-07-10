@@ -1,4 +1,22 @@
-![](https://secure2.wostatic.cn/static/aZ1MmyQnEyERmKCAH48rJT/image.png?auth_key=1657421577-gfkT75CTacW3ZsyzTtApCS-0-daa0b580e802faa1fbde6e293ff41020)
+![](assets/20220710_110132_image.png)
+- [前言](#前言)
+- [CocoaPods 为什么可以管理第三方依赖？](#cocoapods-为什么可以管理第三方依赖)
+    - [1. 分析依赖](#1-分析依赖)
+    - [2. 下载依赖](#2-下载依赖)
+    - [3. 生成`Pods.xcodeproj`文件](#3-生成podsxcodeproj文件)
+    - [4. 生成`xcworkspace`](#4-生成xcworkspace)
+- [pod install 和 pod update 的区别是什么？](#pod-install-和-pod-update-的区别是什么)
+- [Podfile 中如果写死了pod版本号，是不是就可以抛弃Podfile.lock 了？](#podfile-中如果写死了pod版本号是不是就可以抛弃podfilelock-了)
+- [除了 CocoaPods，还有哪些选项？](#除了-cocoapods还有哪些选项)
+  - [不侵入性](#不侵入性)
+  - [灵活性](#灵活性)
+  - [去中心化](#去中心化)
+  - [编译速度快](#编译速度快)
+  - [看不到源码](#看不到源码)
+  - [手动操作多，容易出问题](#手动操作多容易出问题)
+- [Carthage or CocoaPods如何选择合适的第三方库管理工具？](#carthage-or-cocoapods如何选择合适的第三方库管理工具)
+- [参考资料](#参考资料)
+
 
 # 前言
 

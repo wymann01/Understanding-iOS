@@ -70,7 +70,7 @@ AFNetworking
 
 SDWebImage
 
-CocoaPods
+[CocoaPods & Carthage](https://github.com/wymann01/Understanding-iOS/blob/main/DependencyManager/DependencyManager.md)
 
 # Objective-C
 
@@ -97,3 +97,4 @@ Crash 监控与防护
 2022
 
 2021
+
